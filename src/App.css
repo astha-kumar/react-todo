@@ -21,14 +21,14 @@ body{
 .container{
   color:#00000;
 	font-size:20px;
-   font-family: Arial;
+  font-family: Arial;
   text-align: center;
- position: relative;
  padding-left: 35px;
  margin-bottom: 12px;
  cursor: pointer;
  font-size: 22px;
  user-select: none;
+ display: block;
 }
 
 .add-btn{
@@ -37,12 +37,12 @@ body{
   width:8em;
   height:3.2em;
   border-radius: 10px;
-  margin: 1% 30% 1% 30%;
+  margin: 1% 30% 1% 28%;
 }
 input{
   border-style:inset;
   border-color: black;
-  margin:5px 5px 10px 10px;
+  margin:5px 5px 5px 5px;
 	display:inline-block;
   font-size:20px;
 	background:rgba(189,189,189,0.5);
@@ -57,12 +57,11 @@ ul{
   color: white;
   width:7em;
   height:2.4em;
-  margin: 20px 50px;
+  margin: 6px 50px;
   border-radius: 8px;
 }
 label{
-	display:inline-block;
-	text-align:right;
+	text-align:center;
 	color:white;
   background-color:#2a2b2b;
 }
