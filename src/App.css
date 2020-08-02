@@ -1,0 +1,69 @@
+body{
+  background: #5b9ab3;
+  font-size: 20px;
+  background-image: url("./rain.png");
+}
+.logo{
+  display: block;
+  padding: 5% 45% 2% 42%;
+  width: 15%;
+  height: 24%;
+}
+
+.app-title{
+  text-align: center;
+  display: block;
+  color: white;
+  background-color:black;
+  border-radius: 1%;
+  padding: 1% 30% 1% 30%;
+}
+.container{
+  color:#00000;
+	font-size:20px;
+   font-family: Arial;
+  text-align: center;
+  display: block;
+ position: relative;
+ padding-left: 35px;
+ margin-bottom: 12px;
+ cursor: pointer;
+ font-size: 22px;
+ user-select: none;
+}
+
+.add-btn{
+  background-color: green;
+  color: white;
+  width:150px;
+  height:50px;
+  border-radius: 10px;
+  margin: 1% 30% 1% 30%;
+}
+input{
+  border-style:inset;
+  border-color: black;
+  margin:5px 5px 10px 10px;
+	display:inline-block;
+  font-size:20px;
+	background:rgba(189,189,189,0.5);
+	color:white;
+}
+
+ul{
+  list-style: none;
+}
+.btn{
+  background-color: #8a3333;
+  color: white;
+  width:7em;
+  height:3em;
+  margin: 20px 50px;
+  border-radius: 8px;
+}
+label{
+	display:inline-block;
+	text-align:right;
+	color:white;
+  background-color:#2a2b2b;
+}
